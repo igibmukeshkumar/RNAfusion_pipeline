@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+title: "RNAfusion_pipeline"
+type: software
+version: "1.0"
+repository-code: "https://github.com/igibmukeshkumar/RNAfusion_pipeline"
+authors:
+  - family-names: Kumar
+    given-names: Mukesh
+    affiliation: "Department of Medical Oncology, Dr B.R.A. Institute of Rotary Cancer Hospital (IRCH), All India Institute of Medical Sciences (AIIMS), Delhi-110029"
+  - family-names: Seth
+    given-names: Surabhi
+    affiliation: "Department of Medical Oncology, Dr B.R.A. Institute of Rotary Cancer Hospital (IRCH), All India Institute of Medical Sciences (AIIMS), Delhi-110029"
+  - family-names: Sasi
+    given-names: Archana
+    affiliation: "Department of Medical Oncology, Dr B.R.A. Institute of Rotary Cancer Hospital (IRCH), All India Institute of Medical Sciences (AIIMS), Delhi-110029"
+  - family-names: Ganguly
+    given-names: Shuvadeep
+    affiliation: "Department of Medical Oncology, Dr B.R.A. Institute of Rotary Cancer Hospital (IRCH), All India Institute of Medical Sciences (AIIMS), Delhi-110029"
+  - family-names: Bakhshi
+    given-names: Sameer
+    affiliation: "Department of Medical Oncology, Dr B.R.A. Institute of Rotary Cancer Hospital (IRCH), All India Institute of Medical Sciences (AIIMS), Delhi-110029"
+preferred-citation:
+  type: article
+  title: "Uncovering Novel RNA Fusion Events and the Prevalence of RNA Fusions in Acute Myeloid Leukemia Through Integrative Analysis of Public Transcriptomic Datasets"
+  authors:
+    - family-names: Kumar
+      given-names: Mukesh
+    - family-names: Seth
+      given-names: Surabhi
+    - family-names: Sasi
+      given-names: Archana
+    - family-names: Ganguly
+      given-names: Shuvadeep
+    - family-names: Bakhshi
+      given-names: Sameer

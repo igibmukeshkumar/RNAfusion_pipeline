@@ -1,0 +1,9 @@
+dplyr
+tidyr
+readr
+pubmed.mineR
+rentrez
+xml2
+biomaRt
+chimeraviz
+EnsDb.Hsapiens.v86

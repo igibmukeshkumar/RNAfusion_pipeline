@@ -1,0 +1,11 @@
+source: user-supplied
+operating_system:
+  distribution: Ubuntu
+  release: "24.04"
+R:
+  version: "4.6.2"
+  release_date: "2026-10-29"
+RStudio:
+  version: "2025.9.2.418"
+other_pipeline_dependencies:
+  status: not supplied

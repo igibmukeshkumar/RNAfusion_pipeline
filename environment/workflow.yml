@@ -1,0 +1,10 @@
+name: rnafusion-workflow
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - snakemake
+  - star-fusion
+  - fastqc
+  - multiqc
