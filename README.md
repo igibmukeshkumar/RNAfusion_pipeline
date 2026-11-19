@@ -157,11 +157,9 @@ The tests cover repository-level behavior only; they do not run STAR-Fusion, val
 
 If you use this repository or the associated pipeline, cite the manuscript as follows:
 
-***
-CITATION: Kumar, Mukesh; Seth, Surabhi; Sasi, Archana; Ganguly, Shuvadeep; and Bakhshi, Sameer.
+***CITATION: Kumar, Mukesh; Seth, Surabhi; Sasi, Archana; Ganguly, Shuvadeep; and Bakhshi, Sameer.
 "Uncovering Novel RNA Fusion Events and the Prevalence of RNA Fusions in Acute Myeloid Leukemia Through Integrative Analysis of Public Transcriptomic Datasets."
-Year: NA. DOI: NA.
-***
+Year: NA. DOI: NA.***
 
 ```bibtex
 @article{kumar_etal_rnafusion_NA,
