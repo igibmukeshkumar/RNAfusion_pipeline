@@ -2,9 +2,11 @@
 
 This repository contains three related but independently run components:
 
-1. A Snakemake workflow for paired-end FASTQ quality control and STAR-Fusion.
+1. A Snakemake workflow that integrates paired-end FASTQ quality control, STAR-Fusion/FusionInspector, fusion-table combination, filtering, and other project-specific analysis steps.
 2. R analysis scripts for combining calls, filtering, HGNC mapping, and protein-domain data preparation.
 3. PubMed/PMC literature-mining scripts, including an optional NVIDIA Nemotron curation step.
+
+The [CTAT Genome Resource Library (CTAT Lib)](https://toolshed.g2.bx.psu.edu/view/trinity_ctat) is a public resource developed and maintained by the Trinity CTAT team at the Broad Institute, led primarily by [Brian J. Haas](https://www.google.com/search?kgmid=%2Fg%2F11ftc28wtm&q=ctat+lib+by+whome+brian+j.+haas). This repository does not develop or maintain CTAT Lib; it configures STAR-Fusion and FusionInspector to use an externally supplied CTAT genome library. Our pipeline integrates these public tools with project-specific FusionInspector parsing, fusion-table combination, filtering, HGNC mapping, protein-domain preparation, and literature mining.
 
 The repository does not include sequencing reads, a CTAT genome library, the external case/control tables used by the R analysis, or a validated software lockfile. The example configuration is a template, not a runnable dataset. Do not interpret a successful syntax check as validation of scientific reproducibility.
 
@@ -153,7 +155,24 @@ The tests cover repository-level behavior only; they do not run STAR-Fusion, val
 
 ## Citation, license, and release notes
 
-`CITATION.cff` records the software title, version `1.0`, authors, affiliation, and manuscript title supplied by the authors. The manuscript was described as “Under Communication”; no venue, publication year, or DOI was supplied. The author symbols `$` and `#` were not defined, so they are not represented in the structured citation. Confirm those details before release.
+If you use this repository or the associated pipeline, cite the manuscript as follows:
+
+```text
+Kumar, Mukesh; Seth, Surabhi; Sasi, Archana; Ganguly, Shuvadeep; and Bakhshi, Sameer.
+"Uncovering Novel RNA Fusion Events and the Prevalence of RNA Fusions in Acute Myeloid Leukemia Through Integrative Analysis of Public Transcriptomic Datasets."
+Year: NA. DOI: NA.
+```
+
+```bibtex
+@article{kumar_etal_rnafusion_NA,
+  author = {Kumar, Mukesh and Seth, Surabhi and Sasi, Archana and Ganguly, Shuvadeep and Bakhshi, Sameer},
+  title = {Uncovering Novel RNA Fusion Events and the Prevalence of RNA Fusions in Acute Myeloid Leukemia Through Integrative Analysis of Public Transcriptomic Datasets},
+  year = {NA},
+  doi = {NA}
+}
+```
+
+The manuscript was described as “Under Communication”; no venue, publication year, or DOI was supplied. `CITATION.cff` records the software and manuscript title, version `1.0`, authors, and affiliation supplied by the authors. The author symbols `$` and `#` were not defined, so they are not represented in the structured citation. Confirm those details before release.
 
 No license is declared for the code or bundled reference data, and this repository does not grant reuse permission. The code rights holder would choose a software license; terms for bundled reference datasets must be checked with their original providers. Check institutional and publisher requirements before distribution. No license file has been added.
 
