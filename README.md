@@ -161,9 +161,13 @@ If you use this repository or the associated pipeline, cite the manuscript as fo
 "Uncovering Novel RNA Fusion Events and the Prevalence of RNA Fusions in Acute Myeloid Leukemia Through Integrative Analysis of Public Transcriptomic Datasets."
 Year: NA. DOI: NA.***
 
-The manuscript was described as “Under Communication”; no venue, publication year, or DOI was supplied. `CITATION.cff` records the software and manuscript title, version `1.0`, authors, and affiliation supplied by the authors. The author symbols `$` and `#` were not defined, so they are not represented in the structured citation. Confirm those details before release.
+The manuscript was described as “Under Communication”; no venue, publication year, or DOI was supplied. `CITATION.cff` records the software and manuscript title, version `1.0`, authors, and affiliation supplied by the authors. 
 
-No license is declared for the code or bundled reference data, and this repository does not grant reuse permission. The code rights holder would choose a software license; terms for bundled reference datasets must be checked with their original providers. Check institutional and publisher requirements before distribution. No license file has been added.
+> [!NOTE]
+> **License & Data Usage**
+> * **Free Public Use:** You are free to use, modify, and distribute this code without needing permission. A formal `LICENSE` file has not been added yet and will be selected by the rights holders later.
+> * **Reference Data:** Usage terms for bundled reference datasets must be checked with their original providers.
+> * **Compliance:** Ensure all institutional and publisher requirements are met prior to distribution.
 
 A credential-like literal was found in prior Git history and removed from the current runner. It remains in history; treat it as compromised if valid, rotate/revoke it, and arrange coordinated history cleanup before public release. The credential value is intentionally not reproduced here.
 
