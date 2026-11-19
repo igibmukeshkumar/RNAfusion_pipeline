@@ -165,9 +165,8 @@ The manuscript was described as “Under Communication”; no venue, publication
 
 > [!NOTE]
 > **License & Data Usage**
-> * **Free Public Use:** You are free to use, modify, and distribute this code without needing permission. A formal `LICENSE` file has not been added yet and will be selected by the rights holders later.
+> * **Free Public Use:** You are free to use, modify, and distribute this code without needing permission.
 > * **Reference Data:** Usage terms for bundled reference datasets must be checked with their original providers.
-> * **Compliance:** Ensure all institutional and publisher requirements are met prior to distribution.
 
 A credential-like literal was found in prior Git history and removed from the current runner. It remains in history; treat it as compromised if valid, rotate/revoke it, and arrange coordinated history cleanup before public release. The credential value is intentionally not reproduced here.
 
