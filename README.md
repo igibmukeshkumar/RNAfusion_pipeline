@@ -161,15 +161,6 @@ If you use this repository or the associated pipeline, cite the manuscript as fo
 "Uncovering Novel RNA Fusion Events and the Prevalence of RNA Fusions in Acute Myeloid Leukemia Through Integrative Analysis of Public Transcriptomic Datasets."
 Year: NA. DOI: NA.***
 
-```bibtex
-@article{kumar_etal_rnafusion_NA,
-  author = {Kumar, Mukesh and Seth, Surabhi and Sasi, Archana and Ganguly, Shuvadeep and Bakhshi, Sameer},
-  title = {Uncovering Novel RNA Fusion Events and the Prevalence of RNA Fusions in Acute Myeloid Leukemia Through Integrative Analysis of Public Transcriptomic Datasets},
-  year = {NA},
-  doi = {NA}
-}
-```
-
 The manuscript was described as “Under Communication”; no venue, publication year, or DOI was supplied. `CITATION.cff` records the software and manuscript title, version `1.0`, authors, and affiliation supplied by the authors. The author symbols `$` and `#` were not defined, so they are not represented in the structured citation. Confirm those details before release.
 
 No license is declared for the code or bundled reference data, and this repository does not grant reuse permission. The code rights holder would choose a software license; terms for bundled reference datasets must be checked with their original providers. Check institutional and publisher requirements before distribution. No license file has been added.
